@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee shop Wakeup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__line">
+            <div class="container">
+                <div class="header__line-wrapper">
+                    <div class="header__lang">
+                        <a href="#">En</a>
+                        <a href="#" class="active">Ru</a>
+                    </div>
+                    <a href="#" class="header__phone">+79530000000</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__block">
+                    <nav class="nav">
+                        <a href="index.html" class="nav__link active">Главная</a>
+                        <a href="#" class="nav__link">О нас</a>
+                        <a href="#" class="nav__link">Меню</a>
+                        <a href="#" class="nav__link">Бронирование</a>
+                    </nav>
+                </div>
+                <a href="index.html" class="logo">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <div class="header__block  right">
+                    <div class="header__actions">
+                        <a href="#" class="header__link">
+                            <img src="img/profile.svg" alt="Профиль">
+                        </a>
+                        <a href="#" class="header__link">
+                            <img src="img/favorite.svg" alt="Избранное">
+                        </a>
+                        <a href="#" class="header__link">
+                            <img src="img/cart.svg" alt="Корзина">
+                            <span class="header__link-event"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="container">
+
+        <div class="product">
+            <div class="block__title">
+                Lavazza Crema E Gusto
+            </div>
+
+            <div class="product__wrapper">
+
+                <div class="product__img">
+                    <div class="product__item">
+                        <img class="product__picture" src="./img/product_cart.png" alt="">
+                    </div>
+                </div>
+                <div class="product__info">
+                    <div class="product__item">
+                        <div class="product__price">
+                            $19.99
+                            <del>$29.99</del>
+                        </div>
+                        <form action="" class="product__form">
+                            <div class="radio__wrapper">
+                                <div class="radio">
+                                    <input type="radio" class="radio__input" id="radio_1" name="product_size">
+                                    <label for="radio_1" class="radio__label">
+                                        L
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <input type="radio" class="radio__input" id="radio_2" name="product_size">
+                                    <label for="radio_2" class="radio__label">
+                                        XL
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <input type="radio" class="radio__input" id="radio_3" name="product_size">
+                                    <label for="radio_3" class="radio__label">
+                                        XXL
+                                    </label>
+                                </div>
+                            </div>
+                            <button class="btn btn-main btn-full" type="submit">
+                                Добавить в корзину
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="product__footer">
+                <div class="block__title">
+                    Описание
+                </div>
+                <div class="product__item">
+                    <ul>
+                        <li>
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour, or randomised words which don't look
+                            even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be
+                            sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+                            generators on the Internet tend to repeat predefined chunks as necessary, making this the
+                            first true generator on the Internet.
+                        </li>
+                        <li>
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour, or randomised words which don't look
+                            even slightly believable.
+                        </li>
+                        <li>
+                            If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                            embarrassing hidden in the middle of text.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <h2 class="block__title">
+            Другие продукты
+        </h2>
+
+        <div class="block__wrapper">
+            <div class="products__block">
+                <a class="products__item" href="#">
+                    <img class="products__img" src="./img/product.png" alt="">
+                    <h3 class="products__title">
+                        lavazza coffee
+                    </h3>
+                    <div class="products__footer">
+                        <div class="products__price">
+                            $19.99
+                            <del>$29.99</del>
+                        </div>
+                        <button type="button" class="products__favorite">
+                            <img src="img/favorite.svg" alt="">
+                        </button>
+                    </div>
+                </a>
+            </div>
+            <div class="products__block">
+                <a class="products__item" href="#">
+                    <img class="products__img" src="./img/product.png" alt="">
+                    <h3 class="products__title">
+                        lavazza coffee
+                    </h3>
+                    <div class="products__footer">
+                        <div class="products__price">
+                            $19.99
+                            <del>$29.99</del>
+                        </div>
+                        <button type="button" class="products__favorite">
+                            <img src="img/favorite.svg" alt="">
+                        </button>
+                    </div>
+                </a>
+            </div>
+            <div class="products__block">
+                <a class="products__item" href="#">
+                    <img class="products__img" src="./img/product.png" alt="">
+                    <h3 class="products__title">
+                        lavazza coffee
+                    </h3>
+                    <div class="products__footer">
+                        <div class="products__price">
+                            $19.99
+                            <del>$29.99</del>
+                        </div>
+                        <button type="button" class="products__favorite">
+                            <img src="img/favorite.svg" alt="">
+                        </button>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__block">
+                    <a class="footer_logo" href="#">
+                        <img src="./img/footer_log.png" alt="">
+                    </a>
+                </div>
+                <div class="footer__block">
+                    <nav class="nav nav-footer">
+                        <a href="#" class="nav__link">Главная</a>
+                        <a href="#" class="nav__link">О нас</a>
+                        <a href="#" class="nav__link">Меню</a>
+                        <a href="#" class="nav__link">Бронирование</a>
+                    </nav>
+                </div>
+                <div class="footer__block">
+                    <nav class="nav nav-footer">
+                        <a href="#" class="nav__link">Контакты</a>
+                        <a href="#" class="nav__link">Политика конфиденциальности</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
